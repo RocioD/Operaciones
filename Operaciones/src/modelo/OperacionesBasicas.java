@@ -1,5 +1,10 @@
+package modelo;
+
 public class OperacionesBasicas{
 
+    public OperacionesBasicas() {
+    }
+    
     public int Sumar(int a, int b){
         if (a == 0 || b == 0) {
             return 0;
